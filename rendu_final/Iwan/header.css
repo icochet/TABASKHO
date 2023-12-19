@@ -1,0 +1,43 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #323142;
+  --beige: #d9d9d9;
+  --white: #f2f2f2;
+  --purple: #a37ef2;
+  --pastel-purple: #b3add9;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: var(--black);
+}
+header h1 {
+  color: var(--beige);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--purple);
+}
+nav a {
+  background-color: var(--white);
+}
+nav img {
+  width: 40px;
+}
+nav p {
+  font-size: 40px;
+}
