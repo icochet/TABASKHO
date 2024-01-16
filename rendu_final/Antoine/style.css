@@ -37,6 +37,7 @@ article{
     padding: 20px 30px;
     margin: 10px;
     display: flex;
+    margin: 10px 10px;
 }
 
 h2{
@@ -52,4 +53,21 @@ div{
 div img {
     width: 168px;
     height: 30px;
+}
+
+#saison2,
+#saison4 {
+    flex-direction: row-reverse;
+}
+
+section {
+    margin: 0 5px 0 20px;
+}
+
+section h3 {
+    text-align: center;
+}
+
+h2, h3, h4{
+    font-family: 'Abril Fatface', serif;
 }

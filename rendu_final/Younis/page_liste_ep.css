@@ -7,7 +7,7 @@ body{
 }
 
 h1 h2 h3 h4{
-    font-family: "Abril Fatface", arial, sans-serif;
+    font-family: 'Abril Fatface',serif;
 }
 
 h1{
@@ -90,4 +90,27 @@ section article figure img{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    width: 377px;
+    height: 195px;
+}
+
+@media screen and (max-width:450px){
+    .images1 {
+        order: 1;
+        align-items: center;
+        width: 290px;
+        height: 462px;
+    }
+    p {
+        order: -1;
+    }
+    body {
+        background-color: red;
+        color: aqua;
+    }
+
+    section img {
+        width: 147px;
+        height: 79px;
+    }
 }
