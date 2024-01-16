@@ -1,0 +1,73 @@
+body{
+    background-color: #B3ADD9;
+    font-size: 16px;
+    font-family: 'Lato', Regular 400;
+}
+
+main{
+    background-color: #323142;
+    padding: 5px 10px;
+}
+
+h2,
+article{
+    background-color: #B3ADD9;
+    border-radius: 50px;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+.saison{
+    border-radius: 20px;
+    width: 330px;
+    height: 530px;
+}
+
+article{
+    padding: 20px 30px;
+    margin: 10px;
+    display: flex;
+    margin: 10px 10px;
+}
+
+h2{
+    text-align: center;
+    padding: 20px 50px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+}
+
+div img {
+    width: 168px;
+    height: 30px;
+}
+
+#saison2,
+#saison4 {
+    flex-direction: row-reverse;
+}
+
+section {
+    margin: 0 5px 0 20px;
+}
+
+section h3 {
+    text-align: center;
+}
+
+h2, h3, h4{
+    font-family: 'Abril Fatface', serif;
+}
