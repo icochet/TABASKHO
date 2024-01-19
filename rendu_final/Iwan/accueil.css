@@ -1,0 +1,82 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+:root {
+  --dark: #323142;
+  --beige: #efe4e2;
+  --light: #d9d9d9;
+  --dark-purple: #a37ef2;
+  --light-purple: #b3add9;
+
+  --main-font: "Lato", sans-serif;
+  --title-font: "Abril Fatface", serif;
+}
+
+body {
+  font-family: var(--main-font);
+}
+  
+main {
+  background-color: var(--dark-purple);
+  padding: 10px;
+}
+
+section {
+  background-color: var(--dark);
+  padding: 20px;
+}
+
+.main-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-sec article {
+  display: flex;
+  gap: 20px;
+}
+.main-sec img {
+  flex: 2;
+  border-radius: 20px;
+}
+.article-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+  gap: 10px;
+  background-color: var(--light-purple);
+  border-radius: 50px;
+}
+
+.snk .article-container {
+  flex: 1;
+  padding: 15px;
+}
+.snk h2 {
+  font-family: var(--title-font);
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0 4px 4px #00000040;
+  margin-bottom: 20px;
+}
+.snk em {
+  font-size: 1.6rem;
+}
+.snk p {
+  font-size: 1.25rem;
+  text-align: justify;
+}
