@@ -184,6 +184,11 @@ header nav span {
 
 /* ACCUEIL */
 
+.wrapper {
+  background-color: var(--dark);
+  padding: 10px;
+}
+
 .main-sec {
   display: flex;
   flex-direction: column;
@@ -322,4 +327,64 @@ header nav span {
   .snk .article-container {
     order: 2;
   }
+}
+
+.presentation-persos {
+  background-color: var(--light-purple);
+  border-radius: 50px;
+  padding: 50px;
+}
+.presentation-persos article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: var(--dark);
+  border-radius: 50px;
+}
+.presentation-persos img {
+  border: 3px solid #000;
+  border-radius: 20px;
+  width: 165px;
+}
+
+.presentation {
+  margin-bottom: 50px;
+  padding: 10px;
+}
+.presentation h5 {
+  font-family: var(--title-font);
+  font-size: 2.25rem;
+  color: var(--beige);
+}
+
+.eren,
+.armin {
+  margin-bottom: 25px;
+  padding: 25px;
+}
+
+.character-description {
+  color: var(--beige);
+  font-size: 1.25rem;
+}
+
+.eren-name,
+.armin-name,
+.mikasa-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--title-font);
+  color: var(--beige);
+}
+.eren-name {
+  font-size: 2rem;
+}
+.armin-name {
+  font-size: 1.5rem;
+}
+.mikasa-name {
+  font-size: 1.25rem;
 }
