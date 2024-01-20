@@ -54,7 +54,7 @@ header nav img {
 }
 header nav span {
   font-family: "Lato", sans-serif;
-  font-size: 30px;
+  font-size: 2rem;
   color: black;
 }
 .close {
@@ -95,7 +95,7 @@ header nav span {
     font-size: 2rem;
   }
   header nav span {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   header nav img {
     width: 30px;
@@ -113,7 +113,7 @@ header nav span {
     font-size: 1.5rem;
   }
   header nav span {
-    font-size: 15px;
+    font-size: 1rem;
   }
   header nav img {
     width: 20px;
