@@ -388,3 +388,25 @@ header nav span {
 .mikasa-name {
   font-size: 1.25rem;
 }
+
+/* FOOTER */
+
+footer {
+  background-color: var(--dark);
+  padding: 40px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  list-style: none;
+}
+footer img {
+  width: 75px;
+}
+footer p {
+  color: var(--beige);
+  text-align: center;
+  font-size: 1.25rem;
+  margin-top: 25px;
+}
