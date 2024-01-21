@@ -1,388 +1,299 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
-	<head>
-	    <meta charset="utf-8" />
-        <title> TABAS'KO </title>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="page_liste_ep.css" >
-    </head>
-    <body>
-        <header>
-            <img src="img/logo.png" alt="logo" title="logo">
-            <h1>TABAS'KHO</h1>
-    
-            <nav>
-                <a href="accueil.html">
-                    <img src="img/icons/accueil.svg" alt="">
-                    <p>Accueil</p>
-                </a>
-                <a href="saisons.html">
-                    <img src="img/icons/saisons.svg" alt="">
-                    <p>Saisons</p>
-                </a>
-                <a href="backstage.html">
-                    <img src="img/icons/backstage.svg" alt="">
-                    <p>Backstage</p>
-                </a>
-            </nav>
-        </header>
-        <main>
-            <article>
-                <h1>Saison 1</h1>
-                <img class="images1" src="Logo/saison1.jpg" alt="imagesaison1" title="image de la saison 1">
-                <p> <em>L'attaque des Titans : L'arc et la flèche écarlate - </em> <br>  Dans un monde ravagé depuis plus d’un 
-                    siècle par des titans mangeurs d’homme, les rares survivants 
-                    de l’humanité n’ont d’autre choix que de se barricader dans une cité-forteresse. 
-                    Le jeune Eren, témoin de la mort de sa mère dévorée par un titan, n’a qu’un rêve :
-                     entrer dans le corps d’élite chargé de découvrir l’origine des titans et de les annihiler 
-                     jusqu’au dernier. <br> <br>
+<html lang="fr">
 
-                    <em>Nombre d’épisodes :</em> 25 épisodes <br>
-                    <em>Sortie en :</em> 2013
-                </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saison 1 - L'attaque des titans</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo" title="logo">
+        <h1>TABAS'KHO</h1>
+
+        <nav>
+            <a href="accueil.html">
+                <img src="img/icons/accueil.svg" alt="">
+                <span>Accueil</span>
+            </a>
+            <a href="saisons.html">
+                <img src="img/icons/saisons.svg" alt="">
+                <span>Saisons</span>
+            </a>
+            <a href="backstage.html">
+                <img src="img/icons/backstage.svg" alt="">
+                <span>Backstage</span>
+            </a>
+
+            <button class="close">
+                <img src="img/icons/fermer.svg" alt="fermer le menu" title="fermer le menu">
+            </button>
+        </nav>
+
+        <button class="hamburger">
+            <img src="img/icons/menu_deroulant.svg" alt="menu déroulant navigation">
+        </button>
+    </header>
+
+    <main>
+        <section class="s1-wrapper">
+            <section class="saison1-sec">
+                <div>
+                    <h3>SAISON 1</h3>
+                    <p>
+                        <strong><em>L'Attaque des Titans : L'arc et la flèche écarlate</em></strong> - Dans un monde ravagé depuis plu d'un siècle par des titans mangeurs d'homme, les rares survivants de l'humanité n'ont d'autre choix que de se barricader dans une cité-forteresse. Le jeune Eren, témoin de la mort de sa mère dévorée par un titan, n'a qu'un rêve :
+                        entrer dans le corps d'élite chargé de découvrir l'origine des titans et de les annihiler
+                        jusqu'au dernier.
+                    </p>
                     <div>
-                        <img src="Logo/etoile.PNG.png" alt="imagenote" title="image note en étoile">
-                        <figcaption>4,5/5</figcaption>
+                        <p><em>Nombre d'épisodes :</em> 25 épisodes</p>
+                        <p><em>Sortie en :</em> 2013</p>
                     </div>
-            </article>
-            <section>
-                <h1>épisode de la saison 1</h1>
+                    <div class="note">
+                        <img src="img/etoiles.png" alt="Note globale" title="Note globale">
+                        <h4>4,5/5</h4>
+                    </div>
+                </div>
+                <img src="img/saison1.jpg" alt="">
+            </section>
+            <section class="saison1-episodes">
+                <h2>épisodes de la saison 1</h2>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 1.jpg" alt="imageep1" title="image de l'épisode 1">
-                    </figure>
-                    <p>
-                    <em>S01E01 - À toi qui vis 2000 ans plus tard / La chute de Shiganshina</em>
-                    
-                    Réfugiés dans une ville fortifiée, les survivants de l'humanité tentent d'échapper aux titans qui les dévorent. Jusqu'au jour où un titan colossal apparaît.
-                    
-                    <em>Durée :</em> 25min 
-                    </p>
-
+                    <img src="img/episodes/ep01.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E01 - À toi qui vis 2000 ans plus tard / La chute de Shiganshina</em></strong></p>
+                        <p>Réfugiés dans une ville fortifiée, les survivants de l'humanité tentent d'échapper aux titans qui les dévorent. Jusqu'au jour où un titan colossal apparaît.</p>
+                        <p><em>Durée :</em> 25min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 2.jpg" alt="imageep2" title="image de l'épisode 2">
-                    </figure>
-                    <p>
-                    <em>S01E02 - Ce jour-là / La chute de Shiganshina</em>
-                    
-                    Les titans ont percé la première enceinte de la ville. Les survivants s'enfuient. Hannes présente ses excuses à Eren pour la mort de sa mère.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep02.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E02 - Ce jour-là / La chute de Shiganshina</em></strong></p>
+                        <p>Les titans ont percé la première enceinte de la ville. Les survivants s'enfuient. Hannes présente ses excuses à Eren pour la mort de sa mère.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 3.jpg" alt="imageep3" title="image de l'épisode 3">
-                    </figure>
-                    <p>
-                    <em>S01E03 - Une faible étincelle dans le désespoir / Le réveil de l'humanité</em>
-
-                    Eren intègre l'armée. Il se retrouve sous le commandement de Keith Sadies, un formateur sévère. Eren découvre l'équipement spécifique des troupes.
-                    <em>Durée :</em> 24min 
-                    </p>
+                    <img src="img/episodes/ep03.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E03 - Une faible étincelle dans le désespoir / Le réveil de l'humanité</em></strong></p>
+                        <p>Eren intègre l'armée. Il se retrouve sous le commandement de Keith Sadies, un formateur sévère. Eren découvre l'équipement spécifique des troupes.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 4.jpg" alt="imageep4" title="image de l'épisode 4">
-                    </figure>
-                    <p>
-                    <em>S01E04 - Le soir de la cérémonie de fin d'entraînement / Le réveil de l'humanité</em>
-
-                    Eren poursuit son entraînement avec les autres recrues, sous la supervision de Keith. Il apprend que certains engagés souhaitent rejoindre la police militaire.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep04.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E04 - Le soir de la cérémonie de fin d'entraînement / Le réveil de l'humanité</em></strong></p>
+                        <p>Eren poursuit son entraînement avec les autres recrues, sous la supervision de Keith. Il apprend que certains engagés souhaitent rejoindre la police militaire.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 5.jpg" alt="imageep2" title="image de l'épisode 2">
-                    </figure>
-                    <p>
-                    <em>S01E05 - Première bataille / La lutte pour le district de Trost</em>
-
-                    Eren attaque le titan colossal, qui montre une certaine intelligence en s'en prenant aux canons du mur. Au moment où Eren s'apprête à le frapper à son point faible, le monstre disparaît...
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep05.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E05 - Première bataille / La lutte pour le district de Trost</em></strong></p>
+                        <p>Eren attaque le titan colossal, qui montre une certaine intelligence en s'en prenant aux canons du mur. Au moment où Eren s'apprête à le frapper à son point faible, le monstre disparaît...</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 6.jpg" alt="imageep6" title="image de l'épisode 6">
-                    </figure>
-                    <p>
-                    <em>S01E06 - Une petite lame / La lutte pour le district de Trost</em>
-
-                    Armin se réveille, entouré par Connie, Ymir et l'équipe de Krista. Il fond en larmes lorsqu'on lui demande ce qu'il est advenu de son équipe. Armin s'en veut surtout pour ne pas avoir réussi à sauver Eren...
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep06.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E06 - Une petite lame / La lutte pour le district de Trost</em></strong></p>
+                        <p>Armin se réveille, entouré par Connie, Ymir et l'équipe de Krista. Il fond en larmes lorsqu'on lui demande ce qu'il est advenu de son équipe. Armin s'en veut surtout pour ne pas avoir réussi à sauver Eren...</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 7.jpg" alt="imageep2" title="image de l'épisode 2">
-                    </figure>
-                    <p>
-                    <em>S01E07 - Courte lame / La lutte pour le district de Trost</em>
-
-                    Les survivants, incapables de gravir le mur, perdent le moral quand des titans détruisent les dépôts les plus proches, où ils espéraient trouver du carburant.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep07.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E07 - Courte lame / La lutte pour le district de Trost</em></strong></p>
+                        <p>Les survivants, incapables de gravir le mur, perdent le moral quand des titans détruisent les dépôts les plus proches, où ils espéraient trouver du carburant.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 8.jpg" alt="imageep8" title="image de l'épisode 8">
-                    </figure>
-                    <p>
-                    <em>S01E08 - J'entends les battements de ton coeur / La lutte pour le district de Trost</em>
-
-                    Alors que le dépôt est entouré par les Titans, Armin a l'idée d'utiliser le Rogue Titan pour les détruire. Pendant ce temps, Jean et les autres atteignent le dépôt, au prix de lourdes pertes...
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep08.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E08 - J'entends les battements de ton coeur / La lutte pour le district de Trost</em></strong></p>
+                        <p>Alors que le dépôt est entouré par les Titans, Armin a l'idée d'utiliser le Rogue Titan pour les détruire. Pendant ce temps, Jean et les autres atteignent le dépôt, au prix de lourdes pertes...</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 9.jpg" alt="imageep9" title="image de l'épisode 9">
-                    </figure>
-                    <p>
-                    <em>S01E09 - Qu'est-il advenu du bras gauche ? / La lutte pour le district de Trost</em>
-
-                    Alors que l'unité de Levi parvient à reprendre une ville aux Titans, elle est appelée à l'aide pour éliminer les créatures qui ont envahi la cité
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep09.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E09 - Qu'est-il advenu du bras gauche ? / La lutte pour le district de Trost</em></strong></p>
+                        <p>Alors que l'unité de Levi parvient à reprendre une ville aux Titans, elle est appelée à l'aide pour éliminer les créatures qui ont envahi la cité</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 10.jpg" alt="imageep10" title="image de l'épisode 10">
-                    </figure>
-                    <p>
-                    <em>S01E10 - Répondre / La lutte pour le district de Trost</em>
-
-                    Eren récupère de sa transformation, qui lui a permis de sauver Armine et Mikasa. Il pense détenir la clé de la préservation de l'humanité et le moyen de détruire les Titans...
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep10.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E10 - Répondre / La lutte pour le district de Trost</em></strong></p>
+                        <p>Eren récupère de sa transformation, qui lui a permis de sauver Armine et Mikasa. Il pense détenir la clé de la préservation de l'humanité et le moyen de détruire les Titans...</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 11.jpg" alt="imageep11" title="image de l'épisode 11">
-                    </figure>
-                    <p>
-                    <em>S01E11 - Idole / La lutte pour le district de Trost</em>
-
-                    Armin aide les hommes de Pixis à élaborer un plan, ce qui leur rend espoir. Pixis se charge ensuite de calmer tout le monde et de les pousser à combattre.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep11.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E11 - Idole / La lutte pour le district de Trost</em></strong></p>
+                        <p>Armin aide les hommes de Pixis à élaborer un plan, ce qui leur rend espoir. Pixis se charge ensuite de calmer tout le monde et de les pousser à combattre.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 12.jpg" alt="imageep12" title="image de l'épisode 12">
-                    </figure>
-                    <p>
-                    <em>S01E12 - Blessure / La lutte pour le district de Trost</em>
-
-                    Mikasa cherche en vain à raisonner Eren sous sa forme titanesque. Ce dernier continue ses attaques et finit par se blesser. Ses accompagnateurs lancent une fusée pour avertir de l'échec du plan...
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep12.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E12 - Blessure / La lutte pour le district de Trost</em></strong></p>
+                        <p>Mikasa cherche en vain à raisonner Eren sous sa forme titanesque. Ce dernier continue ses attaques et finit par se blesser. Ses accompagnateurs lancent une fusée pour avertir de l'échec du plan...</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 13.jpg" alt="imageep13" title="image de l'épisode 13">
-                    </figure>
-                    <p>
-                    <em>S01E13 - Désir primitif / La lutte pour le district de Trost</em>
-
-                    Jean récupère un équipement de manoeuvre sur un soldat mort et parvient à s'échapper, ses amis faisant diversion. Eren-titan amène un rocher vers la porte.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep13.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E13 - Désir primitif / La lutte pour le district de Trost</em></strong></p>
+                        <p>Jean récupère un équipement de manoeuvre sur un soldat mort et parvient à s'échapper, ses amis faisant diversion. Eren-titan amène un rocher vers la porte.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 14.jpg" alt="imageep14" title="image de l'épisode 14">
-                    </figure>
-                    <p>
-                    <em>S01E14 - On ne peut pas le regarder dans les yeux / La veille de la contre-attaque</em>
-
-                    La population apprend qu'un titan se bat aux côtés des hommes. La nouvelle divise : certains pensent qu'il va les sauver, d'autres qu'il va les détruire.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep14.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E14 - On ne peut pas le regarder dans les yeux / La veille de la contre-attaque</em></strong></p>
+                        <p>La population apprend qu'un titan se bat aux côtés des hommes. La nouvelle divise : certains pensent qu'il va les sauver, d'autres qu'il va les détruire.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 15.jpg" alt="imageep15" title="image de l'épisode 15">
-                    </figure>
-                    <p>
-                    <em>S01E15 - Unité d'intervention / La veille de la contre-attaque</em>
-
-                    Eren se retrouve sous les ordres de Levi. Il apprend à se servir de ses pouvoirs de titan et découvre le caractère difficile de son nouvel officier.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep15.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E15 - Unité d'intervention / La veille de la contre-attaque</em></strong></p>
+                        <p>Eren se retrouve sous les ordres de Levi. Il apprend à se servir de ses pouvoirs de titan et découvre le caractère difficile de son nouvel officier.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 16.jpg" alt="imageep16" title="image de l'épisode 16">
-                    </figure>
-                    <p>
-                    <em>S01E16 - Ce qu'il faut faire maintenant / La veille de la contre-attaque</em>
-
-                    Les recrues sont chargées d'enquêter sur la mort des deux titans. Annie, qui veut rejoindre la police militaire, conseille Armin et Connie, qui hésitent encore.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep16.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E16 - Ce qu'il faut faire maintenant / La veille de la contre-attaque</em></strong></p>
+                        <p>Les recrues sont chargées d'enquêter sur la mort des deux titans. Annie, qui veut rejoindre la police militaire, conseille Armin et Connie, qui hésitent encore.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 17.jpg" alt="imageep17" title="image de l'épisode 17">
-                    </figure>
-                    <p>
-                    <em>S01E17 - Le Titan féminin / La 57e expédition extra-muros</em>
-
-                    Alors que le bataillon d’exploration se dirige vers Shiganshina, les soldats rencontrent un Titan féminin unique en son genre. Mais tandis qu’Armin suggère que c’est une humaine dans le corps d’un Titan, Jean et Reiner tentent malgré tout de l’arrêter.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep17.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E17 - Le Titan féminin / La 57e expédition extra-muros</em></strong></p>
+                        <p>Alors que le bataillon d'exploration se dirige vers Shiganshina, les soldats rencontrent un Titan féminin unique en son genre. Mais tandis qu'Armin suggère que c'est une humaine dans le corps d'un Titan, Jean et Reiner tentent malgré tout de l'arrêter.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 18.jpg" alt="imageep18" title="image de l'épisode 18">
-                    </figure>
-                    <p>
-                    <em>S01E18 - La forêt des arbres géants / La 57e expédition extra-muros</em>
-
-                    Après leur rencontre avec le Titan féminin, Armin, Reiner et Jean sont sauvés par Krista. A leur grande surprise, les soldats ont pour ordre de se diriger dans la forêt d’arbres géants et de tuer chaque Titan qui s’en approchera. Pendant ce temps, le Titan féminin se dirige vers le lieu où se trouve Eren, massacrant quiconque se trouvant sur son passage.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep18.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E18 - La forêt des arbres géants / La 57e expédition extra-muros</em></strong></p>
+                        <p>Après leur rencontre avec le Titan féminin, Armin, Reiner et Jean sont sauvés par Krista. A leur grande surprise, les soldats ont pour ordre de se diriger dans la forêt d'arbres géants et de tuer chaque Titan qui s'en approchera. Pendant ce temps, le Titan féminin se dirige vers le lieu où se trouve Eren, massacrant quiconque se trouvant sur son passage.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 19.jpg" alt="imageep19" title="image de l'épisode 19">
-                    </figure>
-                    <p>
-                    <em>S01E19 - Morsure / La 57e expédition extra-muros</em>
-
-                    Levi donne ses ordres à son groupe. Pendant ce temps, le titan féminin massacre plus d'hommes. Eren supplie son équipe de le laisser combattre.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep19.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E19 - Morsure / La 57e expédition extra-muros</em></strong></p>
+                        <p>Levi donne ses ordres à son groupe. Pendant ce temps, le titan féminin massacre plus d'hommes. Eren supplie son équipe de le laisser combattre.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 20.jpg" alt="imageep20" title="image de l'épisode 20">
-                    </figure>
-                    <p>
-                    <em>S01E20 - Erwin Smith / La 57e expédition extra-muros</em>
-
-                    Erwin et Levi tentent de percer la peau du titan féminin. Les autres soldats comprennent qu'Erwin a utilisé Eren comme appât pour démasquer le traître.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep20.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E20 - Erwin Smith / La 57e expédition extra-muros</em></strong></p>
+                        <p>Erwin et Levi tentent de percer la peau du titan féminin. Les autres soldats comprennent qu'Erwin a utilisé Eren comme appât pour démasquer le traître.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 21.jpg" alt="imageep21" title="image de l'épisode 21">
-                    </figure>
-                    <p>
-                    <em>S01E21 - Coup dur / La 57e expédition extra-muros</em>
-
-                    Erwin explique à Hange qu'il s'est trompé : tous les humains pouvant se transformer en titans ne sont pas bon. Le traître est bien le titan féminin.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep21.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E21 - Coup dur / La 57e expédition extra-muros</em></strong></p>
+                        <p>Erwin explique à Hange qu'il s'est trompé : tous les humains pouvant se transformer en titans ne sont pas bon. Le traître est bien le titan féminin.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 22.jpg" alt="imageep22" title="image de l'épisode 22">
-                    </figure>
-                    <p>
-                    <em>S01E22 - Les vaincus / La 57e expédition extra-muros</em>
-
-                    Levi et Mikasa affrontent le titan féminin. Une manoeuvre risquée de Levi lui permet de mutiler son adversaire, mais il est blessé en secourant Mikasa.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep22.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E22 - Les vaincus / La 57e expédition extra-muros</em></strong></p>
+                        <p>Levi et Mikasa affrontent le titan féminin. Une manoeuvre risquée de Levi lui permet de mutiler son adversaire, mais il est blessé en secourant Mikasa.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 23.jpg" alt="imageep23" title="image de l'épisode 23">
-                    </figure>
-                    <p>
-                    <em>S01E23 - Sourire / Attaque surprise au district de Stohess</em>
-
-                    Annie rêve de son père avant de se réveiller. Dans le district de Stohess, la police militaire a reçu l'ordre d'escorter un char de la Légion de reconnaissance.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep23.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E23 - Sourire / Attaque surprise au district de Stohess</em></strong></p>
+                        <p>Annie rêve de son père avant de se réveiller. Dans le district de Stohess, la police militaire a reçu l'ordre d'escorter un char de la Légion de reconnaissance.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 24.jpg" alt="imageep24" title="image de l'épisode 24">
-                    </figure>
-                    <p>
-                    <em>S01E24 - Pitié / Attaque surprise au district de Stohess</em>
-
-                    Annie est heureuse d'avoir pu aider Armin, qui a gagné son pari. Elle tente de se transformer en femme titan, mais Armin lance immédiatement une fusée.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep24.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E24 - Pitié / Attaque surprise au district de Stohess</em></strong></p>
+                        <p>Annie est heureuse d'avoir pu aider Armin, qui a gagné son pari. Elle tente de se transformer en femme titan, mais Armin lance immédiatement une fusée.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
                 <article>
-                    <figure>
-                        <img src="Logo/ep 25.jpg" alt="imageep25" title="image de l'épisode 25">
-                    </figure>
-                    <p>
-                    <em>S01E25 - Mur / Attaque surprise au district de Stohess</em>
-
-                    En se souvenant de tout le mal qu'il a causé, Eren entre dans une colère noire et se transforme en titan. Dans l'église, tous les croyants prient.
-                    <em>Durée :</em> 24min 
-                    </p>
-
+                    <img src="img/episodes/ep25.png" alt="">
+                    <div class="episode-infos">
+                        <p><strong><em>S01E25 - Mur / Attaque surprise au district de Stohess</em></strong></p>
+                        <p>En se souvenant de tout le mal qu'il a causé, Eren entre dans une colère noire et se transforme en titan. Dans l'église, tous les croyants prient.</p>
+                        <p><em>Durée :</em> 24min</p>
+                    </div>
                 </article>
             </section>
-        </main>
-        <footer>
-            <ul>
-                <li>
-                    <a href="https://x.com" target="_blank">
-                        <img src="img/icons/twitter.svg" alt="se rendre sur notre compte Twitter">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://youtube.com" target="_blank">
-                        <img src="img/icons/youtube.svg" alt="se rendre sur notre chaîne Youtube">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://facebook.com" target="_blank">
-                        <img src="img/icons/facebook.svg" alt="se rendre sur notre page Facebook">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://instagram.com" target="_blank">
-                        <img src="img/icons/instagram.svg" alt="se rendre sur notre compte Instagram">
-                    </a>
-                </li>
-            </ul>
-    
-            <p>Site développé par des étudiants de l'IUT de Lannion - SAE 1.05 WEB - 2023</p>
-        </footer>
-    
-    </body>
+        </section>
+    </main>
 
+    <footer>
+        <ul>
+            <li>
+                <a href="https://x.com" target="_blank">
+                    <img src="img/icons/twitter.svg" alt="se rendre sur notre compte Twitter">
+                </a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank">
+                    <img src="img/icons/youtube.svg" alt="se rendre sur notre chaîne Youtube">
+                </a>
+            </li>
+            <li>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="img/icons/facebook.svg" alt="se rendre sur notre page Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="img/icons/instagram.svg" alt="se rendre sur notre compte Instagram">
+                </a>
+            </li>
+        </ul>
 
+        <p>Site développé par des étudiants de l'IUT de Lannion - SAE 1.05 WEB - 2023</p>
+    </footer>
+</body>
 </html>
